@@ -1,0 +1,7 @@
+config:
+  aws:region: us-west-2
+  my-eks-cluster:desiredClusterSize: "2"
+  my-eks-cluster:eksNodeInstanceType: t3.medium
+  my-eks-cluster:maxClusterSize: "3"
+  my-eks-cluster:minClusterSize: "2"
+  my-eks-cluster:vpcNetworkCidr: 10.0.0.0/16
